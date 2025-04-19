@@ -76,6 +76,7 @@ void main() {
       await tester.pumpAndSettle();
       expect(tester.widgetList(find.byIcon(Icons.close)).length,
           lessThan(totalItems));
+      expect(find.text('Removed from favorites.'), findsOneWidget);
     });
   });
 }
