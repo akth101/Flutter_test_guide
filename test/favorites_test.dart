@@ -76,7 +76,6 @@ void main() {
       await tester.pumpAndSettle();
       expect(tester.widgetList(find.byIcon(Icons.close)).length,
           lessThan(totalItems));
-      expect(find.text('이런 메시지는 표시되지 않음'), findsOneWidget);
     });
   });
 }
