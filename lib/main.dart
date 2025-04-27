@@ -7,6 +7,7 @@ import 'screens/home.dart';
 
 
 //주석 추가
+//주석 추가2
 
 void main() {
   runApp(const TestingApp());
